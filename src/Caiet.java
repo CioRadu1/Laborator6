@@ -1,9 +1,14 @@
 
 public class Caiet extends Rechizite {
 		
-	@Override
-	String getNume() {
-		return this.getNume() + "Caiet";
-	}
-	
+	public Caiet(String nume)
+    {
+        super(nume);
+    }
+    @Override
+    public String getNume()
+    {
+        return "Caiet " + super.nume;
+    }
+
 }

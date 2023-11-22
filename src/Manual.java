@@ -1,8 +1,15 @@
 
 public class Manual extends Rechizite{
 
-	@Override
-	String getNume() {
-		return this.getNume() + "Manual";
-	}
+    public Manual(String nume)
+    {
+        super(nume);
+    }
+
+
+    @Override
+    public String getNume()
+    {
+        return "Manualul " + super.nume;
+    }
 }
